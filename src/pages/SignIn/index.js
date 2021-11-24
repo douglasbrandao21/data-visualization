@@ -24,7 +24,7 @@ function SignIn() {
       //   token
       // });
 
-      history.push('dashboard');
+      history.push('home');
     }
     catch(error) {
       const errorMessage = error.response.data[0];
